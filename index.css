@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sticky-footer {
+    width: 1600px;
+    height: 82px;
+    padding-left: 92px;
+    padding-right: 92px;
+    background: linear-gradient(215deg, #F7CF46 0%, #EF853B 100%);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 23px;
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the container if desired */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0; /* Add padding inside the container if desired */
+  }
